@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teachers room</title>
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: boorder-box;
+	font-family: 'poppins', sans-serif;
+	}
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #EFEFEF;
+	}
+.slide-content{
+	margin: 0 40px;
+	}
+.card{
+	width: 320px;
+	border-radius: 25px;
+	background-color: #fff;
+	}
+.image-content,
+.card-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 14px;
+	}
+.image-content{
+	position: relative;
+	row-gap: 5px;
+	}
+.overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+	border-radius: 25px 25px 0 25px;
+	}
+.card-image{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background:#fff;
+	padding: 3px;
+	}
+.card-image .card-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 4px solid #FF00FF;
+	}
+.name{
+	font-size: 20px;
+	font-family: cursive;
+	font-weight: 600;
+	color: #9400D3;
+	}
+.description{
+	font-size: 16px;
+	color: #FFA500;
+	text-align: center;
+	}
+.button{
+	border: none;
+	font-size: 20px;
+	background-color: blue;
+	color:#DAA520;
+	padding: 6px 16px;
+	font-weight: 500;
+	font-family: cursive;
+	border-radius: 10px;
+	margin: 14px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	}
+.button: hover{
+	background: pink;
+	}
+</style>
+<body>
+<div class="slide-container">
+ <div class="slide-content">
+	 <div class="card-wrapper">
+		 <div class="card">
+			 <div class="image-content">
+				 <span class="overlay"></span>
+				 <div class="card-image">
+					 <img src="Elie 1.jpg" alt="" class="card-img">
+				 </div>
+			 </div>
+			 <div class="card-content">
+			 <h2 class="name">NAMAHORO Elie</h2>
+			 <p class="description"><br>A0 in Mathematics and Computer science with education<br>Now, he is Computer Science teacher<br>Tel: 0780287174</p>
+			 <button  class="button">View More</button>
+			 </div>
+		 </div>
+	 </div>
+	 
+	 <div class="card">
+			 <div class="image-content">
+				 <span class="overlay"></span>
+				 <div class="card-image">
+					 <img src="Elie.jpg" alt="" class="card-img">
+				 </div>
+			 </div>
+			 <div class="card-content">
+			 <h2 class="name">Twagirumukiza Jean Aime</h2>
+			 <p class="description"><br>A0 in Mathematics and Computer science with education<br>Now, he is Computer Science teacher<br>Tel: 0780287174</p>
+			 <button  class="button">View More</button>
+			 </div>
+		 </div>
+	 </div>
+	 </div>
+ </div>
+</div>
+</body>
+</html>
+
